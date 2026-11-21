@@ -9,9 +9,13 @@
     "TheSharkHour",
     "sutr90 (OG Mod)"
   ],
+  "contributors": [
+    "TheLittleCrow (Pulse sound)"
+  ],
   "contact": {
-    "homepage": "https://glass-launcher.net/",
-    "sources": "https://github.com/calmilamsy/stationapi-example-mod"
+    "homepage": "https://github.com/TheSharkHour",
+    "sources": "https://github.com/TheSharkHour/moon-mod",
+    "issues": "https://github.com/TheSharkHour/moon-mod/issues"
   },
 
   "license": "CC0-1.0",
@@ -23,7 +27,9 @@
       "io.github.shark.moon.MoonMod",
       "io.github.shark.moon.event.ItemListener",
       "io.github.shark.moon.event.BlockListener",
-      "io.github.shark.moon.event.RecipeListener"
+      "io.github.shark.moon.event.RecipeListener",
+      "io.github.shark.moon.event.DimensionListener",
+      "io.github.shark.moon.event.BiomeListener"
     ],
     "stationapi:event_bus_client": [
     ],

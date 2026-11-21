@@ -7,8 +7,12 @@ item.moon.sonic_screwdriver.name=Sonic Screwdriver
 item.moon.cheese_wedge.name=Cheese Wedge
 
 # Blocks
+tile.moon.portal.name=Moon Portal
 tile.moon.lamp.name=Lamp
 tile.moon.moon_tent.name=Moon Tent
 tile.moon.reinforced_cloth.name=Reinforced Cloth
 tile.moon.cheese.name=Block of Cheese
 tile.moon.regolith.name=Regolith
+
+# GUI
+moon.dimension_moon=The Moon

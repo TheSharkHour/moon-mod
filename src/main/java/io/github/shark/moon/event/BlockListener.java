@@ -1,6 +1,7 @@
 package io.github.shark.moon.event;
 
 import io.github.shark.moon.block.CheeseBlock;
+import io.github.shark.moon.block.MoonPortalBlock;
 import net.mine_diver.unsafeevents.listener.EventListener;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -29,6 +30,11 @@ public class BlockListener {
 
     @EventListener
     public void registerBlocks(BlockRegistryEvent event) {
+        PORTAL = new MoonPortalBlock(NAMESPACE.id("portal"), Block.WATER.textureId)
+                .setHardness(-1.0F)
+                .setLuminance(0.75F)
+                .setTranslationKey(NAMESPACE.id("portal"));
+
         LAMP = new TemplateBlock(NAMESPACE.id("lamp"), Material.GLASS)
                 .setSoundGroup(Block.GLASS_SOUND_GROUP)
                 .setHardness(0.6f)
