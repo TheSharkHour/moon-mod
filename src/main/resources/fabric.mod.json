@@ -21,7 +21,9 @@
   "entrypoints": {
     "stationapi:event_bus": [
       "io.github.shark.moon.MoonMod",
-      "io.github.shark.moon.event.ItemListener"
+      "io.github.shark.moon.event.ItemListener",
+      "io.github.shark.moon.event.BlockListener",
+      "io.github.shark.moon.event.RecipeListener"
     ],
     "stationapi:event_bus_client": [
     ],
