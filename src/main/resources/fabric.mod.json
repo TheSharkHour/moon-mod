@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "%s",
+  "id": "moon",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "The Moon",
+  "description": "Cheese has never looked so good!",
   "authors": [
-    "Me!"
+    "TheSharkHour",
+    "sutr90 (OG Mod)"
   ],
   "contact": {
     "homepage": "https://glass-launcher.net/",
@@ -14,12 +15,13 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/%s/icon.png",
+  "icon": "assets/moon/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "%s.events.init.InitListener"
+      "io.github.shark.moon.MoonMod",
+      "io.github.shark.moon.event.ItemListener"
     ],
     "stationapi:event_bus_client": [
     ],
@@ -27,7 +29,7 @@
     ]
   },
   "mixins": [
-    "%s.mixins.json"
+    "moon.mixins.json"
   ],
 
   "depends": {
